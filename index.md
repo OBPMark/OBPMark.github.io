@@ -62,3 +62,5 @@ The benchmarks are organised in the following structure ("Private Beta" current 
 
 The entire set of benchmarks can be built by invoking the Makefile in the top src/ directory, or by invoking the individual Makefiles in each of the src sub-directories. 
 
+For detailed build instructions see [Build Instructions](build_instructions.md) 
+
