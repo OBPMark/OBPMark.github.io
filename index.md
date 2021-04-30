@@ -1,24 +1,35 @@
 OBPMark (On-Board Processing Benchmarks)
 ====================
 
-On-Board Processing Benchmarks
+What is OBPMark?
 ---------------------
+OBPMark (On-Board Processing Benchmarks) is a set of computational performance benchmarks developed specifically for spacecraft on-board systems applications. 
 
+The development of OBPMark was driven by the lack of openly available benchmarks for representative space applications. 
 
-### OBPMark (On-Board Processing Benchmarks) --- PRIVATE BETA
+OBPMark consists of three main components: 
+1. A technical note describing the benchmarks, their implementation and result reporting. 
+2. Reference implementations in C (sequential) and standard parallelisation schemes, such as OpenMP, OpenCL and CUDA. 
+3. A list of known published performance benchmark results. 
+
+OBPMark has been developed in cooperation by the European Space Agency (ESA) and Barcelona Supercomputing Center (BSC). 
+The OBPMark definition and implementation has been made available partially through funding from the ESA "General Studies Programme (GSP)".
+
+OBPMark is openly available, and contributions from the community are warmly welcome. 
+
+### Contact
 
 Contact: OBPMark@esa.int  
   
 Authors/Chairs:  
 David Steenari, European Space Agency (ESA)  
-Dr. Leonidas Kosmidis, Barcelona Supercomputing Centre (BSC)  
+Dr. Leonidas Kosmidis, Barcelona Supercomputing Center (BSC)  
   
 Contributors:  
 Ivan Rodriguez Ferrandez, BSC -- implementation and parallelisation of CCSDS compression algorithms.  
   
-The OBPMark definition and implementation has been made available through the ESA "General Studies Programme (GSP)".  
   
-## PRIVATE BETA VERSION NOTICE
+## Release Notice
 Please note that OBPMark is currently in "Private Beta" while the implementations and verifications of the benchmarks are being completed.
 
 Expect features and data to be missing. For an overview of the main current issues and missing features, see the "Issues" tab in the git repository.
