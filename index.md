@@ -1,11 +1,8 @@
-OBPMark (On-Board Processing Benchmarks)
-====================
-
 What is OBPMark?
 ---------------------
-OBPMark (On-Board Processing Benchmarks) is a set of computational performance benchmarks developed specifically for spacecraft on-board systems applications. 
+OBPMark (On-Board Processing Benchmarks) is a set of computational performance benchmarks developed specifically for spacecraft on-board data processing applications, such as: image and radar processing, data and image compressions, signal processing and machine learning.
 
-The development of OBPMark was driven by the lack of openly available benchmarks for representative space applications. 
+The development of OBPMark was driven by the lack of openly available and representative benchmarks for space applications.
 
 OBPMark consists of three main components: 
 1. A technical note describing the benchmarks, their implementation and result reporting. 
@@ -24,10 +21,11 @@ Contact: OBPMark@esa.int
 Authors/Chairs:  
 David Steenari, European Space Agency (ESA)  
 Dr. Leonidas Kosmidis, Barcelona Supercomputing Center (BSC)  
-  
+
+### Contributors
+
 Contributors:  
 Ivan Rodriguez Ferrandez, BSC -- implementation and parallelisation of CCSDS compression algorithms.  
-  
   
 ## Release Notice
 Please note that OBPMark is currently in "Private Beta" while the implementations and verifications of the benchmarks are being completed.
@@ -48,10 +46,10 @@ The following folders are in the repository:
 
 The benchmarks are organised in the following structure ("Private Beta" current status also shown): 
 
-	src/1.1-image/				-- Sequential available. Parallel implementations to commited (BSC).
+	src/1.1-image/				-- Available in C (sequential), OpenMP, OpenCL and CUDA.
 	src/1.2-radar/				-- Not available yet.
-	src/2.1-data_compression/		-- Available. 
-	src/2.2-image_compression/		-- mited (BSC).
+	src/2.1-data_compression/		-- Available in C (sequential), OpenMP, OpenCL and CUDA
+	src/2.2-image_compression/		-- Available in C (sequential), OpenMP, OpenCL and CUDA.
 	src/2.3-hyperspectral_compression/	-- Not available yet.
 	src/3.1-aes_compression/		-- Not available yet.
 	src/4.1-fir_filter/			-- Available in C (sequential), OpenMP, OpenCL and CUDA
