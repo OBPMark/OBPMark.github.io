@@ -1,4 +1,12 @@
-### OBPMark (On Board Processing Benchmark) --- PRIVATE BETA
+OBPMark (On-Board Processing Benchmarks)
+====================
+
+On-Board Processing Benchmarks
+---------------------
+
+
+### OBPMark (On-Board Processing Benchmarks) --- PRIVATE BETA
+
 Contact: OBPMark@esa.int  
   
 Authors/Chairs:  
