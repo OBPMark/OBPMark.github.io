@@ -1,3 +1,5 @@
 theme: jekyll-theme-slate
 title: OBPMark
 description: (On-Board Processing Benchmarks)
+github:
+  is_project_page: false
