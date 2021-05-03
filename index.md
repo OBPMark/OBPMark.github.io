@@ -1,5 +1,6 @@
 ---
 title: OBPMark
+descrption: On-Board Processing Benchmarks
 ---
 
 What is OBPMark?
@@ -29,7 +30,8 @@ Dr. Leonidas Kosmidis, Barcelona Supercomputing Center (BSC)
 ### Contributors
 
 Contributors:  
-Ivan Rodriguez Ferrandez, BSC -- implementation and parallelisation of CCSDS compression algorithms.  
+Alvaro Jover, Universitat Politècnica de Catalunya (UPC) -- implementation of OpenMP versions.
+Ivan Rodriguez Ferrandez, Barcelona Supercomputing Center (BSC) -- implementation of OpenCL / CUDA versions.
   
 ## Release Notice
 Please note that OBPMark is currently in "Private Beta" while the implementations and verifications of the benchmarks are being completed.
@@ -55,7 +57,7 @@ The benchmarks are organised in the following structure ("Private Beta" current 
 	src/2.1-data_compression/		-- Available in C (sequential), OpenMP, OpenCL and CUDA
 	src/2.2-image_compression/		-- Available in C (sequential), OpenMP, OpenCL and CUDA.
 	src/2.3-hyperspectral_compression/	-- Not available yet.
-	src/3.1-aes_compression/		-- Not available yet.
+	src/3.1-aes_encryption/			-- Not available yet.
 	src/4.1-fir_filter/			-- Available in C (sequential), OpenMP, OpenCL and CUDA
 	src/4.2-fft/				-- Available in C (sequential), OpenMP, OpenCL and CUDA.
 	src/4.3-convolution/			-- Available in C (sequential), OpenMP, OpenCL and CUDA.
