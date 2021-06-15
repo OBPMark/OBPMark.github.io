@@ -19,6 +19,12 @@ The OBPMark definition and implementation has been made available partially thro
 
 OBPMark is openly available, and contributions from the community are warmly welcome. 
 
+### Repositories
+
+https://github.com/OBPMark/OBPMark 
+
+https://github.com/OBPMark/GPU4S_Bench
+
 ### Contact
 
 Contact: OBPMark@esa.int  
@@ -34,13 +40,11 @@ Alvaro Jover, Universitat Politècnica de Catalunya (UPC) -- implementation of O
 Ivan Rodriguez Ferrandez, Barcelona Supercomputing Center (BSC) -- implementation of OpenCL / CUDA versions.
   
 ## Release Notice
-Please note that OBPMark is currently in "Private Beta" while the implementations and verifications of the benchmarks are being completed.
+Please note that OBPMark is currently in "Public Beta" while the implementations and verifications of the benchmarks are being completed.
 
 Expect features and data to be missing. For an overview of the main current issues and missing features, see the "Issues" tab in the git repository.
 
-The repository will be made "Public" when the first stabile version of OBPMark has been completed. This is expected in Q2 2021. 
-
-In the meanwhile, users with access to the "Private Beta" version are invited to test out the existing implementations (see list below) and report bugs and issues via the github interface.
+In the meanwhile, users are invited to test out the existing implementations (see list below) and report bugs and issues via the github interface.
 
 ## Description
 This repository contains a set of reference implementations for performing benchmarks on devices and systems on-board spacecraft. 
