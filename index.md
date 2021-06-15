@@ -21,9 +21,9 @@ OBPMark is openly available, and contributions from the community are warmly wel
 
 ### Repositories
 
-https://github.com/OBPMark/OBPMark 
+[OBPMark Repository] https://github.com/OBPMark/OBPMark 
 
-https://github.com/OBPMark/GPU4S_Bench
+[GPU4S Bench Repository] https://github.com/OBPMark/GPU4S_Bench
 
 ### Contact
 
