@@ -36,8 +36,8 @@ Dr. Leonidas Kosmidis, Barcelona Supercomputing Center (BSC)
 ### Contributors
 
 Contributors:  
-Alvaro Jover, Universitat Politècnica de Catalunya (UPC) -- implementation of OpenMP versions.
-Ivan Rodriguez Ferrandez, Barcelona Supercomputing Center (BSC) -- implementation of OpenCL / CUDA versions.
+Alvaro Jover-Alvarez, Universitat Politècnica de Catalunya (UPC)/Barcelona Supercomputing Center (BSC)  -- implementation of OpenMP versions.
+Ivan Rodriguez-Ferrandez, Universitat Politècnica de Catalunya (UPC)/Barcelona Supercomputing Center (BSC) -- implementation of OpenCL / CUDA versions.
   
 ## Release Notice
 Please note that OBPMark is currently in "Public Beta" while the implementations and verifications of the benchmarks are being completed.
