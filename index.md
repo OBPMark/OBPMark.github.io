@@ -23,7 +23,7 @@ OBPMark is openly available, and contributions from the community are warmly wel
 
 [OBPMark Repository](https://github.com/OBPMark/OBPMark) 
 
-[GPU4S Bench Repository](https://github.com/OBPMark/GPU4S_Bench)
+[GPU4S Bench - OBPMark-Kernel Repository](https://github.com/OBPMark/GPU4S_Bench)
 
 ### Contact
 
@@ -62,12 +62,6 @@ The benchmarks are organised in the following structure ("Private Beta" current 
 	src/2.2-image_compression/		-- Available in C (sequential), OpenMP, OpenCL and CUDA.
 	src/2.3-hyperspectral_compression/	-- Not available yet.
 	src/3.1-aes_encryption/			-- Not available yet.
-	src/4.1-fir_filter/			-- Available in C (sequential), OpenMP, OpenCL and CUDA
-	src/4.2-fft/				-- Available in C (sequential), OpenMP, OpenCL and CUDA.
-	src/4.3-convolution/			-- Available in C (sequential), OpenMP, OpenCL and CUDA.
-	src/4.4-matrix_multiplication/		-- Available in C (sequential), OpenMP, OpenCL and CUDA.
-	src/5.1-object_detection/		-- Not available yet. 
-	src/5.2-cloud_screening/		-- Not available yet.
 	src/common/
 
 The entire set of benchmarks can be built by invoking the Makefile in the top src/ directory, or by invoking the individual Makefiles in each of the src sub-directories. 
