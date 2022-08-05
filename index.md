@@ -1,7 +1,11 @@
 ---
 title: OBPMark
-descrption: On-Board Processing Benchmarks
+description: On-Board Processing Benchmarks
 ---
+
+![ESA logo](/assets/esa-logo.png)
+![BSC logo](/assets/bsc-logo.png)
+
 
 What is OBPMark?
 ---------------------
@@ -9,7 +13,21 @@ OBPMark (On-Board Processing Benchmarks) is a set of computational performance b
 
 The development of OBPMark was driven by the lack of openly available and representative benchmarks for space applications.
 
-OBPMark consists of three main components: 
+### Benchmarks
+OBPMark is split into three sets of on-board processing benchmarks, each with its own repository:
+
+FIXME make this into a table
+
+[OBPMark](https://github.com/OBPMark/OBPMark) -- Application level benchmarks, "classical" processing.
+OBPMark-ML (TODO add link) -- Application level benchmark for machine learning based processing. 
+[OBPMark-Kernels (GPU4S Bench)](https://github.com/OBPMark/GPU4S_Bench) -- Processing building blocks
+
+### Objectives
+
+
+### Description
+
+OBPMark consists of the following main components: 
 1. A technical note describing the benchmarks, their implementation and result reporting. 
 2. Reference implementations in C (sequential) and standard parallelisation schemes, such as OpenMP, OpenCL and CUDA. 
 3. A list of known published performance benchmark results. 
@@ -18,12 +36,6 @@ OBPMark has been developed in cooperation by the European Space Agency (ESA) and
 The OBPMark definition and implementation has been made available partially through funding from the ESA "General Studies Programme (GSP)".
 
 OBPMark is openly available, and contributions from the community are warmly welcome. 
-
-### Repositories
-
-[OBPMark Repository](https://github.com/OBPMark/OBPMark) 
-
-[GPU4S Bench - OBPMark-Kernel Repository](https://github.com/OBPMark/GPU4S_Bench)
 
 ### Contact
 
@@ -36,35 +48,7 @@ Dr. Leonidas Kosmidis, Barcelona Supercomputing Center (BSC)
 ### Contributors
 
 Contributors:  
-Alvaro Jover-Alvarez, Universitat Politècnica de Catalunya (UPC)/Barcelona Supercomputing Center (BSC)  -- implementation of OpenMP versions.
-Ivan Rodriguez-Ferrandez, Universitat Politècnica de Catalunya (UPC)/Barcelona Supercomputing Center (BSC) -- implementation of OpenCL / CUDA versions.
-  
-## Release Notice
-Please note that OBPMark is currently in "Public Beta" while the implementations and verifications of the benchmarks are being completed.
+Alvaro Jover-Alvarez, Universitat Politècnica de Catalunya (UPC) / Barcelona Supercomputing Center (BSC)
 
-Expect features and data to be missing. For an overview of the main current issues and missing features, see the "Issues" tab in the git repository.
-
-In the meanwhile, users are invited to test out the existing implementations (see list below) and report bugs and issues via the github interface.
-
-## Description
-This repository contains a set of reference implementations for performing benchmarks on devices and systems on-board spacecraft. 
-
-The following folders are in the repository: 
-
-	docs/	The TeX files for building the OBPMark specification. 
-	src/	Source files for each of the benchmarks. 
-
-The benchmarks are organised in the following structure ("Private Beta" current status also shown): 
-
-	src/1.1-image/				-- Available in C (sequential), OpenMP, OpenCL and CUDA.
-	src/1.2-radar/				-- Not available yet.
-	src/2.1-data_compression/		-- Available in C (sequential), OpenMP, OpenCL and CUDA
-	src/2.2-image_compression/		-- Available in C (sequential), OpenMP, OpenCL and CUDA.
-	src/2.3-hyperspectral_compression/	-- Not available yet.
-	src/3.1-aes_encryption/			-- Not available yet.
-	src/common/
-
-The entire set of benchmarks can be built by invoking the Makefile in the top src/ directory, or by invoking the individual Makefiles in each of the src sub-directories. 
-
-For detailed build instructions see [Build Instructions](build_instructions.md) 
+Ivan Rodriguez-Ferrandez, Universitat Politècnica de Catalunya (UPC) / Barcelona Supercomputing Center (BSC).
 
