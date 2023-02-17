@@ -30,14 +30,22 @@ OBPMark is openly available, and contributions from the community are warmly wel
 Contact: OBPMark@esa.int  
   
 Authors/Chairs:  
-David Steenari, European Space Agency (ESA)  
-Dr. Leonidas Kosmidis, Barcelona Supercomputing Center (BSC)  
+- David Steenari, European Space Agency (ESA)  
+- Dr. Leonidas Kosmidis, Barcelona Supercomputing Center (BSC)  
 
 ### Contributors
 
-Contributors:  
-Alvaro Jover-Alvarez, Universitat Politècnica de Catalunya (UPC)/Barcelona Supercomputing Center (BSC)  -- implementation of OpenMP versions.
-Ivan Rodriguez-Ferrandez, Universitat Politècnica de Catalunya (UPC)/Barcelona Supercomputing Center (BSC) -- implementation of OpenCL / CUDA versions.
+Contributors:   
+- Ivan Rodriguez Ferrandez, Universitat Politècnica de Catalunya and Barcelona Supercomputing Center (UPC/BSC):
+	- Implementation of Benchmark #1.1 "Image Calibration and Correction"
+	- Implementation of Benchmark #2.1 "CCSDS 121.0 Data Compression"
+	- Implementation of Benchmark #2.2 "CCSDS 122.0 Image Compression"
+	- Verification of implementations.
+- Alvaro Jover-Alvarez, Universitat Politècnica de Catalunya and Barcelona Supercomputing Center (UPC/BSC):
+	- Implementation of OpenMP versions of Benchmarks #1.1, #2.1, .
+- Marc Solé Bonet, Barcelona Supercomputing Centrer (BSC):
+	- Implementation of Benchmark #3.1 "AES Encryption"
+	- Implementation of Benchmark #1.2 "Radar Image Processing"
   
 ## Release Notice
 Please note that OBPMark is currently in "Public Beta" while the implementations and verifications of the benchmarks are being completed.
@@ -57,8 +65,8 @@ The following folders are in the repository:
 The benchmarks are organised in the following structure ("Private Beta" current status also shown): 
 
 	src/1.1-image/				-- Available in C (sequential), OpenMP, OpenCL and CUDA.
-	src/1.2-radar/				-- Not available yet.
-	src/2.1-data_compression/		-- Available in C (sequential), OpenMP, OpenCL and CUDA
+	src/1.2-radar/				-- Available in C (sequential), OpenMP, OpenCL and CUDA.
+	src/2.1-data_compression/		-- Available in C (sequential), OpenMP, OpenCL and CUDA.
 	src/2.2-image_compression/		-- Available in C (sequential), OpenMP, OpenCL and CUDA.
 	src/2.3-hyperspectral_compression/	-- Not available yet.
 	src/3.1-aes_encryption/			-- Not available yet.
